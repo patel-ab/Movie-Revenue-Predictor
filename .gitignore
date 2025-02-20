@@ -1,0 +1,17 @@
+# Ignore unnecessary files
+__pycache__/
+*.log
+*.pyc
+*.pyo
+.vscode/
+.idea/
+*.ipynb_checkpoints
+
+# Ignore large files (datasets & models)
+data/*.csv
+models/*.pkl
+models/*.h5
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
